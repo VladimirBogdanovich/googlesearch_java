@@ -20,7 +20,7 @@ public class GoogleMainPage {
     private WebElement searchButton;
 
     /*Methods*/
-    public void sendSearchQwery() {
+    public void sendSearchQuery() {
     searchField.sendKeys("Selenium IDE");
     searchButton.click();
     }

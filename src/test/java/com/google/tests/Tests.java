@@ -25,7 +25,7 @@ public class Tests {
     @Test
     public void inputSearchResult() {
         GoogleMainPage googleMainPage = new GoogleMainPage(driver);
-        googleMainPage.sendSearchQwery();
+        googleMainPage.sendSearchQuery();
         GoogleSearchResultPage googleSearchResultPage = new GoogleSearchResultPage(driver);
         googleSearchResultPage.gehHadlineTextt();
         googleSearchResultPage.getLinkText();
